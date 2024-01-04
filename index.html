@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="NorseBold" href="Norse-Bold.otf">
 </head>
 <body>
     <!-- How you attack this project is mostly up to you, 
@@ -14,6 +15,10 @@
     <div class="signUpPage">
         <!-- Background Pic -->
         <div class="picSide">
+            <div class="banner">
+                <img src="odin-lined.png" alt="Odin logo" id="odinLogo">
+                <div class="banner-heading">ODIN</div>
+            </div>
             <img src="martin-marek-uN6qWlgmuTs-unsplash.jpg" alt="couple hiking in mountains" id="backgroundPic">
         </div>
         <!-- Form -->
@@ -27,27 +32,27 @@
                     <ul>
                         <li>
                             <label for="firstname">FIRST NAME</label>
-                            <input name="firstname" type="text">
+                            <input name="firstname" type="text" class="error" required>
                         </li>
                         <li>
                             <label for="lastname">LAST NAME</label>
-                            <input name="lastname" type="text">
+                            <input name="lastname" type="text" required>
                         </li>
                         <li>
                             <label for="email">EMAIL</label>
-                            <input name="email" type="text">
+                            <input name="email" type="text" required>
                         </li>
                         <li>
                             <label for="phonenumber">PHONE NUMBER</label>
-                            <input name="phonenumber" type="text">
+                            <input name="phonenumber" type="text" required>
                         </li>
                         <li>
                             <label for="password">PASSWORD</label>
-                            <input name="password" type="text">
+                            <input name="password" type="text" required>
                         </li>
                         <li>
                             <label for="confirmedpassword">CONFIRM PASSWORD</label>
-                            <input name="confirmedpassword" type="text">
+                            <input name="confirmedpassword" type="text" required>
                         </li>
                     </ul>
                 </fieldset>
